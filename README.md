@@ -6,4 +6,4 @@ Given an array of integers, find two numbers such that they add up to a specific
 
 ### [2.Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
-* 新建一个链表，同时向后遍历两个链表
+* 新建一个链表，同时向后遍历两个链表，将他们的value相加
