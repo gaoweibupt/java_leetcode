@@ -15,3 +15,8 @@ Given a string, find the length of the longest substring without repeating chara
 ### [4.Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 There are two sorted arrays nums1 and nums2 of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 * 要求的算法复杂度为O(log (m+n))，所以不能使用传统的遍历方法，二分查找的算法复杂度为O(log (n))，所以该题目使用二分查找法来查找数组中的第k个元素。依次对nums1 和 nums2 进行二分，而不是对整体数组进行二分。另外需要注意，要求的返回值为double类型，以及输入的数组有没有空的情况。
+
+### [5.Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+Given a string S, find the longest palindromic substring in S. You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
+* 回文字符串最简单的是枚举字符串中的每一个子串，复杂度为O(N^3)；现在做了稍许改进，枚举每一个子回文串的中点，算法复杂度为O(N^2)，但是要注意回文串的长度为奇数还是偶数的问题。
+* 还有一些线性时间的回文串检测算法，待学习
