@@ -20,3 +20,16 @@ There are two sorted arrays nums1 and nums2 of size m and n respectively. Find t
 Given a string S, find the longest palindromic substring in S. You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
 * 回文字符串最简单的是枚举字符串中的每一个子串，复杂度为O(N^3)；现在做了稍许改进，枚举每一个子回文串的中点，算法复杂度为O(N^2)，但是要注意回文串的长度为奇数还是偶数的问题。
 * 还有一些线性时间的回文串检测算法，待学习
+
+### [6.ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+* 锯齿状String，例如：
+A     G     M
+B   F H   L
+C E   I K
+D     J
+所以每一行中，与下一个字符的距离可以求出来
