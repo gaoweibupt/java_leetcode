@@ -22,14 +22,18 @@ Given a string S, find the longest palindromic substring in S. You may assume th
 * 还有一些线性时间的回文串检测算法，待学习
 
 ### [6.ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
-The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
-P   A   H   N
-A P L S I I G
-Y   I   R
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)      
+```java
+P   A   H   N     
+A P L S I I G    
+Y   I   R   
+```
 And then read line by line: "PAHNAPLSIIGYIR"
-* 锯齿状String，例如：
-A     G     M
-B   F H   L
-C E   I K
-D     J
+* 锯齿状String，例如：    
+```java
+A     G     M   
+B   F H   L  
+C E   I K   
+D     J   
+```
 所以每一行中，与下一个字符的距离可以求出来
