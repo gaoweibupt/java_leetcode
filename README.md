@@ -43,3 +43,11 @@ Reverse digits of an integer.
 Example1: x = 123, return 321
 Example2: x = -123, return -321
 * 需要特别注意边界条件
+
+### [8.String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+Implement atoi to convert a string to an integer.
+* 实现函数atoi，就是从第一个非空字符开始转换直到遇到非数字字符停止。
+
+### [9.Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+Determine whether an integer is a palindrome. Do this without extra space
+* 特别注意条件不使用额外的空间，所以不能使用字符串，需要将int倒序保存在另一个int中
