@@ -37,3 +37,9 @@ C E   I K
 D     J   
 ```
 所以每一行中，与下一个字符的距离可以求出来
+
+### [7.Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+Reverse digits of an integer.
+Example1: x = 123, return 321
+Example2: x = -123, return -321
+* 需要特别注意边界条件
