@@ -51,3 +51,21 @@ Implement atoi to convert a string to an integer.
 ### [9.Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 Determine whether an integer is a palindrome. Do this without extra space
 * 特别注意条件不使用额外的空间，所以不能使用字符串，需要将int倒序保存在另一个int中
+
+### [10.Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+Implement regular expression matching with support for '.' and '*'.   
+'.' Matches any single character.   
+'*' Matches zero or more of the preceding element.   
+The matching should cover the entire input string (not partial).   
+The function prototype should be:   
+bool isMatch(const char *s, const char *p)   
+Some examples:    
+isMatch("aa","a") → false   
+isMatch("aa","aa") → true   
+isMatch("aaa","aa") → false   
+isMatch("aa", "a*") → true   
+isMatch("aa", ".*") → true    
+isMatch("ab", ".*") → true     
+isMatch("aab", "c*a*b") → true    
+* 可以使用递归或者是动态规划的方式
+* 递归时，需要判断p字符串的第二位是否为*，不是则都向后移一位；是则检测p向后移两位是否可以，不可以则s向后移一位
