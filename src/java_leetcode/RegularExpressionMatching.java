@@ -32,20 +32,18 @@ public class RegularExpressionMatching {
     //pÒªÍêÈ«Æ¥Åäs
     public boolean isMatch(String s, String p){
     	if (p.length() == 0)return s.length() == 0;
-    	if (p.length() == 1){
-    		return s.charAt(0) == p.charAt(0) || p.charAt(0) == '.';
-    	}
     	else{
-    		if (p.charAt(1) == '*'){
-    			int i = 0;
-    			while(s.length() > i && s.charAt(i) == p.charAt(0) || p.charAt(0) == '.'){
-    				if (isMatch(s.substring(i), p.substring(2)))return true;
-    				i++;	
+    		//p.length() > 1
+    		if (p.length() > 1 && p.charAt(1) == '*'){
+    			
+    			if (isMatch(s, p.substring(2)))return true;
+    			if(s.length() > 0 && (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.')){
+    				return isMatch(s.substring(1), p);	
     			}
-    			return isMatch(s.substring(i), p.substring(2));
+    			return false;
     		}
     		else{
-    			if (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.'){
+    			if (s.length() > 0 && (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.')){
     				return isMatch(s.substring(1), p.substring(1));
     			}
     			else{
