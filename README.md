@@ -80,3 +80,8 @@ Given an integer, convert it to a roman numeral.
 Input is guaranteed to be within the range from 1 to 3999.
 * 罗马数字对应的关系：(1,I),(5,V),(10,X),(50,L),(100,C),(500,D),(1000,M);相应的原则：同样的单位最多出现三次，左减右加
 * 可能使用数组或者Map比较方便
+
+### [13.Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+Given a roman numeral, convert it to an integer.   
+Input is guaranteed to be within the range from 1 to 3999.   
+* 对应关系见12题
