@@ -74,3 +74,9 @@ isMatch("aab", "c*a*b") → true
 Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.   
 Note: You may not slant the container.
 * 从两端不断向中间靠拢遍历，复杂度O(N)
+
+### [12.Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
+Given an integer, convert it to a roman numeral.   
+Input is guaranteed to be within the range from 1 to 3999.
+* 罗马数字对应的关系：(1,I),(5,V),(10,X),(50,L),(100,C),(500,D),(1000,M);相应的原则：同样的单位最多出现三次，左减右加
+* 可能使用数组或者Map比较方便
