@@ -35,7 +35,7 @@ public class RegularExpressionMatching {
     	else{
     		//p.length() > 1
     		if (p.length() > 1 && p.charAt(1) == '*'){
-    			
+    			//"X*"©иртн╙©у
     			if (isMatch(s, p.substring(2)))return true;
     			if(s.length() > 0 && (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.')){
     				return isMatch(s.substring(1), p);	
