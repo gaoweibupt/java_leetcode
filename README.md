@@ -85,3 +85,7 @@ Input is guaranteed to be within the range from 1 to 3999.
 Given a roman numeral, convert it to an integer.   
 Input is guaranteed to be within the range from 1 to 3999.   
 * 对应关系见12题
+
+### [14.Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+Write a function to find the longest common prefix string amongst an array of strings.
+* 遍历字符串数组进行判断
