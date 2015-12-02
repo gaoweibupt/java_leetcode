@@ -89,3 +89,11 @@ Input is guaranteed to be within the range from 1 to 3999.
 ### [14.Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 Write a function to find the longest common prefix string amongst an array of strings.
 * 遍历字符串数组进行判断
+
+### [15.3Sum](https://leetcode.com/problems/3sum/)
+Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.   
+Note:   
+Elements in a triplet (a,b,c) must be in non-descending order. (ie, a ≤ b ≤ c)   
+The solution set must not contain duplicate triplets.   
+* 题目给的案例有错误，要求输出结果中没有重复元素，所以算法的重点在于如何去重
+* 遍历前先排序，可以很方便的验证重复的元素
