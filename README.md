@@ -1,5 +1,10 @@
-# [Java_Leetcode](https://leetcode.com/)
-按题目顺序进行排序
+工程共分为两个文件夹：
+# A.Alogrithm
+算法导论视频、书的相关程序，用于学习算法及数据结构的基础知识
+
+
+# B.[Java_Leetcode](https://leetcode.com/)
+leetcode的题目解答，按题目顺序进行排序
 ### [1.Two Sum](https://leetcode.com/problems/two-sum/)
 Given an array of integers, find two numbers such that they add up to a specific target number.
 * 向后遍历数组，直到获得两个数的和是给定的值
