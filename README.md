@@ -102,3 +102,9 @@ Elements in a triplet (a,b,c) must be in non-descending order. (ie, a ≤ b ≤ 
 The solution set must not contain duplicate triplets.   
 * 题目给的案例有错误，要求输出结果中没有重复元素，所以算法的重点在于如何去重
 * 遍历前先排序，可以很方便的验证重复的元素
+
+### [16.3Sum Closet](https://leetcode.com/problems/3sum-closest/)
+Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
+* 遍历前先排序
+* 复杂度O（n^2）
+* 与15题相同的类型
