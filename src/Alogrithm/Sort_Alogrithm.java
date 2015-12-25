@@ -64,10 +64,43 @@ public class Sort_Alogrithm {
 		return result;
 	}
 	
+	/**
+	 * 快速排序
+	 * 步骤：
+	 * 		1.将数组分成两个部分，大于X的和小于X的
+	 * 		2.递归处理两个数组的排序
+	 * 		3.合并
+	 * */
+	public static void quickSort(int[] arr, int p, int q){
+		if (q - p == 0)return;
+		int x = arr[p];
+		int i = p;
+		int j;
+		for (j = i + 1; j <= q; j++){
+			if (arr[j] >= x){
+				//do nothing here
+			}
+			else{
+				i++;
+				int y = arr[i];
+				arr[i] = arr[j];
+				arr[j] = y;
+			}
+		}
+		if (i !=p){
+			arr[p] = arr[i];
+			arr[i] = x;
+			quickSort(arr, p, i-1);
+		}
+		quickSort(arr, i + 1, q);
+		return;
+	}
+	
 	public static void main(String[] arg){
 		int[] array = {3,5,2,4,7,1,9,6,2,0,10};
 		//array = insertSort(array);
-		array = mergeSort(array, 0, array.length);
+		//array = mergeSort(array, 0, array.length);
+		quickSort(array,0,array.length-1);
 		for (int i = 0; i < array.length; i++){
 			System.out.print(array[i]+" ");
 		}
