@@ -2,8 +2,10 @@
 # A.Alogrithm
 算法导论视频、书的相关程序，用于学习算法及数据结构的基础知识
 
+# B.Item
+零基础学算法（戴艳） 的课后习题
 
-# B.[Java_Leetcode](https://leetcode.com/)
+# C.[Java_Leetcode](https://leetcode.com/)
 leetcode的题目解答，按题目顺序进行排序
 ### [1.Two Sum](https://leetcode.com/problems/two-sum/)
 Given an array of integers, find two numbers such that they add up to a specific target number.
