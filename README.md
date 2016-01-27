@@ -110,3 +110,7 @@ Given an array S of n integers, find three integers in S such that the sum is cl
 * 遍历前先排序
 * 复杂度O（n^2）
 * 与15题相同的类型
+
+### [19.Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+Given a linked list, remove the nth node from the end of list and return its head.
+* 注意边界条件：删除的节点为head节点，列表只有一个节点
