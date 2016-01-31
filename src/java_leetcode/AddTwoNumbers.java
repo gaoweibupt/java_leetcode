@@ -5,14 +5,15 @@ package java_leetcode;
  */
 
 
-class ListNode {
-     int val;
-     ListNode next;
-     ListNode(int x) { val = x; }
-}
+
 
 public class AddTwoNumbers {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+	class ListNode {
+	     int val;
+	     ListNode next;
+	     ListNode(int x) { val = x; }
+	}
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode node = new ListNode(0);
         ListNode result = node;
         int flag = 0;
