@@ -111,6 +111,18 @@ Given an array S of n integers, find three integers in S such that the sum is cl
 * 复杂度O（n^2）
 * 与15题相同的类型
 
+### [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+Given a digit string, return all possible letter combinations that the number could represent.
+* 一对多的关系
+
 ### [19.Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 Given a linked list, remove the nth node from the end of list and return its head.
 * 注意边界条件：删除的节点为head节点，列表只有一个节点
+
+### [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+* 使用了栈实现
+
+### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
