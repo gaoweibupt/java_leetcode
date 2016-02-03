@@ -115,6 +115,11 @@ Given an array S of n integers, find three integers in S such that the sum is cl
 Given a digit string, return all possible letter combinations that the number could represent.
 * 一对多的关系
 
+### [18.4Sum](https://leetcode.com/problems/4sum/)
+Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.
+* 对数组进行排序 NlogN
+* N^2 求两个数的和，对剩下的数组进行遍历
+
 ### [19.Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 Given a linked list, remove the nth node from the end of list and return its head.
 * 注意边界条件：删除的节点为head节点，列表只有一个节点
