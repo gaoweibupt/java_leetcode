@@ -131,3 +131,8 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 
 ### [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+
+### [22.Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+* 使用递归，深度优先算法，先构造i个和n-
+i-1两个长度的字符串数组，然后在（i）n-i-1拼接，构造出目标数组
