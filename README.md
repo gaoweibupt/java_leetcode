@@ -140,3 +140,14 @@ i-1两个长度的字符串数组，然后在（i）n-i-1拼接，构造出目�
 ### [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 * 使用二分法
+
+### [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+Given a linked list, swap every two adjacent nodes and return its head.
+* 交换相邻两个元素，以2位移遍历链表
+
+### [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
+If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.
+You may not alter the values in the nodes, only nodes itself may be changed.
+Only constant memory is allowed.
+* 判断k个数是否存在，然后使用栈翻转。
