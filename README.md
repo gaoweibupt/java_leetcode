@@ -136,3 +136,7 @@ Merge two sorted linked lists and return it as a new list. The new list should b
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 * 使用递归，深度优先算法，先构造i个和n-
 i-1两个长度的字符串数组，然后在（i）n-i-1拼接，构造出目标数组
+
+### [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+* 使用二分法
