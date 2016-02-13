@@ -151,3 +151,17 @@ If the number of nodes is not a multiple of k then left-out nodes in the end sho
 You may not alter the values in the nodes, only nodes itself may be changed.
 Only constant memory is allowed.
 * 判断k个数是否存在，然后使用栈翻转。
+
+### [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
+Do not allocate extra space for another array, you must do this in place with constant memory.
+* 设置标识位，遍历数组，将不重复的元素放到标识位
+
+### [27. Remove Element](https://leetcode.com/problems/remove-element/)
+Given an array and a value, remove all instances of that value in place and return the new length.
+The order of elements can be changed. It doesn't matter what you leave beyond the new length.
+* 同26题
+
+### [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+* 遍历
