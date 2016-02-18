@@ -165,3 +165,9 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 ### [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 * 遍历
+
+### [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+Divide two integers without using multiplication, division and mod operator.
+If it is overflow, return MAX_INT.
+* 可以使用减法，想了很久使用移位判断倍数。
+* 尤其要注意边界条件，因为结果很容易超出int值的范围
